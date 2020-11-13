@@ -1,7 +1,5 @@
 # ServerTakehome
 
-# ClientTakehome
-
 ## Installation
 
 ```
