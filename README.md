@@ -16,15 +16,15 @@ npm start
 
 ### Get all recipes
 ```
-curl localhost:3000
+curl localhost:3000/recipe
 ```
 
 ### Delete recipes
 ```
-curl --data "name=nameOfRecipe" localhost:3000
+curl --data "name=nameOfRecipe" localhost:3000/recipe
 ```
 ### Update/Add new recipe
 ```
-curl --data "name=nameOfRecipe&instruction=insctruction...&ingredients='tomatoes strawberries'" localhost:3000
+curl --data "name=nameOfRecipe&instruction=insctruction...&ingredients='tomatoes strawberries'" localhost:3000/recipe
 ```
 
