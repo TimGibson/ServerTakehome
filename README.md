@@ -19,7 +19,7 @@ npm start
 curl localhost:3000/recipe
 ```
 
-### Delete recipes
+### Delete recipe
 ```
 curl --data "name=nameOfRecipe" localhost:3000/recipe
 ```
